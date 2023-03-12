@@ -69,4 +69,24 @@
     padding: 1em;
     width: 100%; 
 }
-.newsletter-
+.newsletter-search::placeholder {
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-white: 400;
+    color: var(--blue);
+    text-align: center;
+    background: url("../img/Email.svg");
+    background-repeat: no-repeat;
+    background-position: 0.6em;
+}
+
+.rodape {
+    background: var(--white);
+}
+.rodape-group {
+    border-top: 2px solid #858585;
+}
+.rodape-text {
+    font-size: 16px;
+    padding: 1.0em;
+}
