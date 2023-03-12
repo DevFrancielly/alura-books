@@ -1,0 +1,20 @@
+
+:root {
+    --color-background: #EBECEE;
+    --white: #FFFFFF;
+    --orange: #EB9B00;
+    --blue: #002F52;
+    --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-main:'Poppins', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weigth: 400;
+}
