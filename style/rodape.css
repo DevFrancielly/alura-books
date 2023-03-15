@@ -1,0 +1,10 @@
+.rodape {
+    background: var(--white);
+}
+.rodape-group {
+    border-top: 2px solid #858585;
+}
+.rodape-text {
+    font-size: 16px;
+    padding: 1.0em;
+}

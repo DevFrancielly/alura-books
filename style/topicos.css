@@ -1,0 +1,37 @@
+
+.topics {
+    background: var(--blue-gradient);
+    text-align: center;
+    padding: 1em 0.5em;
+}
+.topics-title {
+    color: var(--white);
+    font-weigth: 300px;
+    margin-bottom: 1em;
+}
+.topics-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topics-itens {
+    margin: 2em 0.5em;
+}
+.topics-link {
+    color: var(--white);
+    padding: 1em;
+    background-color: var(--orange);
+    text-decoration: none;
+    font-size: 14px;
+    font-weigth: 400;
+}
+
+@media screen and (min-width: 1024px) {
+    .topics-title {
+        font-size: 24px;
+    }
+    .topics-link {
+        font-size: 24px;
+    }
+}

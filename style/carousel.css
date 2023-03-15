@@ -5,7 +5,7 @@
     text-transform: uppercase;
     font-size: 16px;
     font-weigth: 700;
-    padding: 1em 0 0.5em 0; 
+    padding: 1em 0 1em 0; 
 }
 .swiper-slide img {
     width: 100%;
@@ -21,7 +21,7 @@
 .card-description {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.9em;
 }
 .card-button {
     display: flex;
@@ -62,4 +62,26 @@
     font-weigth: 700;
     color: var(--white);
     text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .carousel-title {
+        font-size: 26px;
+    }
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+    .swiper {
+        width: 60%;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: Block;
+        top: 60%;
+    }
+    .card {
+        width: 45%;
+        margin: 2em auto;
+    }
+    
 }
